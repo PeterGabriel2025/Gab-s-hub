@@ -1,0 +1,48 @@
+body{
+  margin-left: 250px;
+}
+
+
+h1{
+    line-height: 50px;
+}
+
+.concert-song{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.anyi{
+    font-family:arial,monospace;
+    font-size: 30px;
+}
+
+.prelude{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.everybody{
+    font-family: arial;
+    font-weight: bold;
+}
+
+.anyix4{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.X4{
+font-size: 20px;
+font-weight: bold;
+}
+
+.every1{
+    margin-bottom: 20px;
+    font-family: arial;
+}

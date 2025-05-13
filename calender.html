@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+   <head>
+
+    <style>
+
+        body{
+            background-color: lightcoral;
+              overflow: scroll;
+        }
+
+      *{
+        margin: 0px;
+        font-family: system-ui;
+      }  
+.calender{
+    height: 350px;
+ width: 350px;
+font-family: arial;
+font-size: 20px;
+background-color: rgb(6, 59, 77);
+
+
+box-shadow: inset 30px 40px 100px rgba(190, 223, 241, 0.30);
+
+
+border-radius: 20px;
+border-style: solid;
+border-width: 20px;
+
+z-index: 1;
+}
+
+.tr{
+    font-size: 20px;
+    margin-left: 30px;
+    color:aquamarine;
+
+}
+
+.trm{
+    font-size: 20px;
+ color:aquamarine;
+}
+
+.may{
+    width: 250px;
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    word-spacing: 10px;
+    word-wrap: break-word;
+   font-family: Arial rounded MT bold;
+   color:rgb(4, 255, 171);
+   -webkit-text-stroke: 0.35px;
+   -webkit-text-stroke-color: blue;
+
+}
+
+.Today{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 0;
+padding-top: 70px;
+font-family: monospace;
+font-weight: bold;
+color:aliceblue;
+color-scheme:410px;
+}
+
+.birthday{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.twenty-three{
+   background-color: rgb(90, 17, 173);
+   color:white;
+}
+
+
+.hanger-1{
+  height: 50px;
+  width: 95px;
+  border-top-left-radius: 200px;
+  border-color:rgb(194, 97, 6) ;
+  border-right-width: 0;
+  border-left-width: 10px;
+  border-top-width:7px;
+  border-bottom-width:7px;
+
+  border-style: solid;
+  background: linear-gradient(
+    139deg, rgb(6, 59, 77) 50%,  gray 20%
+);  color: rgb(211, 225, 238);
+-webkit-text-stroke: 0.35px;
+   -webkit-text-stroke-color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+  .hanger-2{
+  height: 50px;
+  width: 95px;
+  border-top-right-radius: 200px;
+  border-color:rgb(194, 97, 6) ;
+  border-left-width: 0;
+  border-top-width:7px;
+  border-bottom-width:7px;
+  border-right-width:7px;
+
+  border-style: solid;
+  background: linear-gradient(
+    139deg, rgb(6, 59, 77) 50%,  gray 20%
+); 
+-webkit-text-stroke: 0.35px;
+   -webkit-text-stroke-color: blue;
+ color: rgb(211, 225, 238);
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+
+.circle{
+    height: 100px;
+    width: 100px; 
+    font-style:italic;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-width:7px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 10px;
+    border-style: solid;
+
+ font-size:50px;
+ border-color:rgb(194, 97, 6) ;
+ padding-bottom: 30px;
+position: relative;
+background: linear-gradient(
+    139deg, rgb(6, 59, 77) 50%,  gray 20%
+);
+}
+.timb{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.is-my{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.inner-circle{
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    border-width: 7px;
+    border-color:rgb(255, 123, 0) ;
+    -webkit-text-stroke: 0.35px;
+   background-color: rgb(182, 182, 255);
+    position: absolute;
+    top: 11%;
+    left: 48%;
+
+   
+}
+
+
+.all-circle{
+    display: flex;
+}
+
+    </style>
+   </head>
+
+   <body>
+
+
+
+
+
+
+    <center>
+
+    <span class="birthday">
+        MY BIRTHDAY CALENDER
+    </span>
+
+<div  class="timb">
+
+   <div> 
+     <button class="hanger-1">Today </button> 
+    </div> 
+          
+ <div>
+          
+    <div class="all-circle">
+    <button class="circle"> ......</button>
+        <button class="inner-circle">
+            
+            <i class="is-my">   is my</i> 
+        </button>
+
+    </div>
+
+ </div>
+ 
+
+    <div> 
+        <button class="hanger-2">Birthday</button> 
+       </div> 
+
+</div>
+    
+</div>
+
+
+    <div class="calender">
+
+
+        <p> 🎖</p>
+    <table class="table">
+
+        
+   <span class="may">MAY 23th, 2026</span>
+
+    <tbody >
+        <tr class="trm">
+       <th> M</th>
+       <th> T </th>  
+      <th>  W </th> 
+      <th> T </th> 
+      <th> F </th> 
+      <th> S </th>
+      <th> S</th> 
+    </tr>
+      </tr>
+
+            <tr class="tr">
+        <td>  </td>
+      <td>1</td>   
+       <td> 2 </td> 
+       <td> 3 </td> 
+       <td> 4 </td> 
+       <td> 5 </td> 
+       <td> 6</td> 
+       </tr>
+
+
+       
+       <tr  class="tr">
+        <td> 7 </td>
+        <td> 8 </td>  
+       <td> 9 </td> 
+       <td> 10 </td> 
+       <td> 11</td> 
+       <td> 12</td> 
+       <td> 13 </td> 
+       </tr>
+
+       <tr  class="tr">
+        <td> 14 </td>
+        <td> 15 </td>  
+       <td> 16 </td> 
+       <td> 17 </td> 
+       <td> 18 </td> 
+       <td> 19 </td> 
+       <td> 20</td> 
+       </tr>
+
+       <tr  class="tr">
+        <td> 21 </td>
+        <td> 22 </td>  
+        <td> 
+         <span class="twenty-three">23 </span>    
+         </td> 
+        <td> 24 </td> 
+       <td> 25 </td> 
+       <td> 26 </td> 
+       <td> 27</td> 
+       </tr>
+
+       <tr  class="tr">
+        <td> 28 </td>
+       <td> 29</td> 
+       <td> 30</td> 
+       <td> 31</td> 
+       </tr>
+    </tbody>
+
+
+</table>
+
+
+ <div class="Today">   Today is my birthday 🎉🎉🎉</div>
+
+</div>
+
+<div class="happy">
+    Happy Birthday to me
+</div>
+
+
+    </div>
+
+</center>
+
+
+
+
+
+
+   </body>
+
+</html>

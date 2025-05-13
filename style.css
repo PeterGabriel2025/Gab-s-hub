@@ -1,0 +1,170 @@
+*{
+    background-color: rgb(248, 167, 63);
+}
+
+#da{
+   color:rgb(226, 226, 255);
+   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 3px;
+   font-weight:1000;
+   font-family:monospace;
+   font-size: 5rem;
+   font-stretch:ultra-expanded;
+   font-weight: bolder;
+   font-style:normal;
+   text-transform: uppercase;
+   text-overflow:all;
+   background-image: url(pj.png);
+   width: 1055px;
+   height: fit-content;
+   text-align:center;
+   border-radius: 90px;
+   transition-duration: 2s;
+
+}
+
+.at{
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#da:hover{
+opacity:0.80;
+}
+
+.dd{
+color:rgb(0, 0, 0);
+font-size:1.9rem;
+text-align: center;
+text-decoration-line:underline;
+}
+
+
+.circle{
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    background-color: orange;
+    border-style:dotted;
+    stroke: blue; 
+    transition: background-color 1s;  
+    transition-duration: 2s; 
+    animation-name: inherit;
+    animation-duration: 3s;
+}
+.circle:hover{
+background-color: blueviolet;
+}
+
+.button{
+    cursor: pointer;
+    border-top-color: forestgreen;
+    border-radius: 7px 7px 7px 7px;
+    width: 700px ;
+    height: 50px;
+    color:rgb(61, 2, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+    transition-duration: 2s;
+    transition: background-color 0.1;
+    
+}
+.button:hover{
+    background-color: rgb(87, 66, 107);
+}
+
+.button:active{
+background-color: rgb(242, 170, 3);
+}
+.if{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
+.tbu{
+    width:20px;
+   height:10px;
+   align-items:end
+}
+.tbut:active{
+    opacity:8
+}
+
+  
+
+.order{
+    font-family:Georgia, 'Times New Roman', 
+    Times, serif;
+    font-size: 4.5rem;
+    background-image: url;
+}
+
+.arr{
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif ;
+    cursor:default;
+}
+
+.customer{
+    font-weight:bold ;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    margin-left:85rem;
+    background-color: rgb(232, 232, 232);
+    color: rgb(62, 62, 62);
+   border-radius: 5px 5px 5px 5px;
+   height: 20px;
+   width: 70px;
+   text-align: center;
+   cursor:default;
+   transition: box-shadow;
+   transition-duration: 0.20s;
+}
+.customer:hover{
+    box-shadow: 2px 2px 2px 2px
+
+}
+
+.customer:active{
+    opacity: 0.8;
+}
+
+.Guest{
+    font-weight:bold ;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    margin-left:90rem;
+    background-color: rgb(232, 232, 232);
+   border-radius: 5px 5px 5px 5px;
+   color: rgb(62, 62, 62);
+   height: 20px;
+   width: 70px;
+   text-align: center;
+   cursor:default;
+   transition: box-shadow;
+   transition-duration: 0.20s;
+}
+.Guest:hover{
+    box-shadow: 2px 2px 2px 2px
+
+}
+
+.Guest:active{
+    opacity: 0.8;
+}
+
+.online{
+    font-size:3rem;
+    
+}
+
+.you{
+    margin-left :70rem;
+    margin-bottom :7rem;
+    font-size: 2rem;
+}
+
