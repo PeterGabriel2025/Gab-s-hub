@@ -1,0 +1,162 @@
+body{
+    margin-left:15rem;
+    margin-top: 10rem;
+    font-size: 10.5px;
+    background-color: gray;
+}
+
+.ome-web{
+    background-color:aliceblue;
+    width: 30rem;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+
+header img{
+    height: 15rem;
+    width: 29.5rem;  
+      border-radius: 20px;
+      border: outset white;
+
+}
+
+
+.section-one h1{
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.section-one p{
+    font-family: arial;
+}
+
+.section-two{
+    background-color: rgb(255, 227, 231);
+    padding: 10px;
+}
+
+.section-two p{
+  color: rgb(104, 3, 3); 
+  font-weight: bold;
+  font-size: 13.5px;
+  font-family: monospace ;
+}
+
+.section-two ol{
+list-style: dotted;
+counter-reset: item;
+padding: 0;
+margin-left: 8px;
+margin-bottom: 1.2rem;
+font-family: arial;
+font-size: 12px;
+}
+
+.section-two ol li{
+    margin: 13px;
+}
+
+
+
+.section-three h2{
+  color: rgb(104, 3, 3); 
+  font-family: monospace;    
+}
+
+.section-three{
+font-family: arial;
+font-size: 12px;
+}
+
+.section-three ol{
+list-style: dotted;
+counter-reset: item;
+padding: 0;
+margin-left: 1.2rem;
+margin-bottom: 1.2rem;
+font-family: arial;
+font-size: 12px;
+}
+
+.section-three ol li{
+    margin: 13px;
+}
+
+
+.section-four h2{
+  color: rgb(104, 3, 3); 
+  font-family: monospace;
+}
+
+.section-four ol{
+list-style: none;
+counter-reset: item;
+padding: 0;
+margin: 0;
+font-family: arial;
+font-size: 12px;
+}
+
+.section-four ol li{
+    counter-increment: item;
+    padding: 5px;
+}
+
+.section-four   ol li ::before {
+    content: counter(item);
+    font-weight: bold;
+    color: rgb(104, 3, 3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 8px;
+}
+
+
+
+
+
+aside h2{
+  font-family:monospace;
+  color: rgb(104, 3, 3);
+}
+aside p{
+    font-family: arial;
+    
+    margin-bottom: 2rem;
+}
+
+
+.sub-nutrition {
+    display: flex;
+    margin-left: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sub-nutrition div:last-child{
+    font-size: 13px;
+    text-align: center;
+    font-family: arial;
+}
+
+.li{
+    margin-left: 15rem;
+    color: rgb(104, 3, 3);
+    font-weight: bold;
+}
+.mi{
+     margin-left: 16rem;
+     color: rgb(104, 3, 3);
+    font-weight: bold;
+}
+.ni{
+    margin-left: 15.3rem;
+    color: rgb(104, 3, 3);
+    font-weight: bold;
+        
+}
+.oi{
+    margin-left: 16.9rem;
+    color: rgb(104, 3, 3);
+    font-weight: bold;
+}
